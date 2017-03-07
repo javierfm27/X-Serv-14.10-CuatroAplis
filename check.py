@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Script de comprobación de entrega de ejercicio
+Script de comprobaciï¿½n de entrega de ejercicio
 
 Para ejecutarlo, desde la shell:
  $ python check.py login_github
@@ -56,7 +56,7 @@ except OSError:
 
 if len(github_file_list) != len(files):
     error = 1
-    print "Error: número de ficheros en el repositorio incorrecto"
+    print "Error: nï¿½mero de ficheros en el repositorio incorrecto"
 
 for filename in files:
     if filename not in github_file_list:
