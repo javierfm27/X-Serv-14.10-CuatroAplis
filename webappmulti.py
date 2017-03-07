@@ -71,7 +71,7 @@ class webApp:
         """Initialize the web application."""
 
         self.apps = apps
-        self.myApp = app()
+        self.myApp = app() # Esta es la aplicacion por defecto
 
         # Create a TCP objet socket and bind it to a port
         mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
